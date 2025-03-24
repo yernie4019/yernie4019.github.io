@@ -1,7 +1,7 @@
 ---
 title: "retrospect"
 layout: category
-permalink: /categories/retrospect/
+permalink: /categories/Retrospect/
 author_profile: true
 taxonomy: retrospect
 sidebar:
