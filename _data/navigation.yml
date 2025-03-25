@@ -18,8 +18,8 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "categories1"
-    url: /categories/categories1/
+  - title: "ranking archive"
+    url: /categories/ranking/
   - title: "Categories2"
     url: /categories/categories2/
   - title: "Categories3"
