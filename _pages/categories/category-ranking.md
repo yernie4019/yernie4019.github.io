@@ -1,9 +1,9 @@
 ---
-title: "retrospect"
+title: "ranking archive"
 layout: category
-permalink: /categories/Retrospect/
+permalink: /categories/ranking/
 author_profile: true
-taxonomy: retrospect
+taxonomy: ranking
 sidebar:
   nav: "categories"
 ---
