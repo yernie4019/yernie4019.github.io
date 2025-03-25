@@ -34,8 +34,8 @@ last_modified_at: 2025-03-25
 2025년 3월 25일 모바일 랭킹 리스트<br>
 | 기준 : [applion 매상 기준](https://applion.jp/iphone/rank/jp/6014/gross/)
 
-# 일본 시장
-## OS에 따른 매출 랭킹
+# 일본 마켓
+## 일본 마켓의 OS 별 매출 랭킹
 
 ### Android
 
@@ -72,6 +72,122 @@ last_modified_at: 2025-03-25
 
 
 ### iOS
+<style>
+  .tab-buttons {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .tab-buttons button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: none;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+  }
+  .tab-buttons button.active {
+    border-bottom: 2px solid #007acc;
+    background-color: #ffffff;
+  }
+  .tab-content {
+    display: none;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  th {
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+</style>
+
+<div class="tab-buttons">
+  <button class="active" onclick="showTab('ios')">iOS</button>
+  <button onclick="showTab('android')">Android</button>
+</div>
+
+<div id="ios" class="tab-content active">
+  <table>
+    <thead>
+      <tr><th>순위</th><th>이름</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>ラストウォー：サバイバル</td></tr>
+      <tr><td>2</td><td>パズル＆ドラゴンズ</td></tr>
+      <tr><td>3</td><td>eFootball™</td></tr>
+      <tr><td>4</td><td>ホワイトアウト・サバイバル</td></tr>
+      <tr><td>5</td><td>荒野行動-鬼滅の刃コラボ中</td></tr>
+      <tr><td>6</td><td>ウマ娘プリティーダービー</td></tr>
+      <tr><td>7</td><td>Pokémon TCG Pocket</td></tr>
+      <tr><td>8</td><td>プロ野球スピリッツA</td></tr>
+      <tr><td>9</td><td>ロイヤルマッチ (Royal Match)</td></tr>
+      <tr><td>10</td><td>モンスターストライク</td></tr>
+      <tr><td>11</td><td>ディズニーツイステッドワンダーランド</td></tr>
+      <tr><td>12</td><td>ドラゴンクエストワォーク歩く楽しみが増える位置情報ゲーム</td></tr>
+      <tr><td>13</td><td>トォーンブラスト</td></tr>
+      <tr><td>14</td><td>ブロスタ</td></tr>
+      <tr><td>15</td><td>メメントモリ</td></tr>
+      <tr><td>16</td><td>Fate/Grand Order</td></tr>
+      <tr><td>17</td><td>Pokémon GO</td></tr>
+      <tr><td>18</td><td>Sky 星を紡ぐ子どもたち</td></tr>
+      <tr><td>19</td><td>崩壊 : スターレイル</td></tr>
+      <tr><td>20</td><td>LINE ポコポコ</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div id="android" class="tab-content">
+  <table>
+    <thead>
+      <tr><th>순위</th><th>이름</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>モンスターストライク</td></tr>
+      <tr><td>2</td><td>ウマ娘プリティーダービー</td></tr>
+      <tr><td>3</td><td>ラストウォー：サバイバル</td></tr>
+      <tr><td>4</td><td>崩壊 : スターレイル</td></tr>
+      <tr><td>5</td><td>ドラゴンクエストワォーク</td></tr>
+      <tr><td>6</td><td>ロイヤルマッチ (Royal Match)</td></tr>
+      <tr><td>7</td><td>ディズニーツイステッドワンダーランド</td></tr>
+      <tr><td>8</td><td>ホワイトアウト・サバイバル</td></tr>
+      <tr><td>9</td><td>Pokémon TCG Pocket</td></tr>
+      <tr><td>10</td><td>Fate/Grand Order</td></tr>
+      <tr><td>11</td><td>パズル＆サバイバル</td></tr>
+      <tr><td>12</td><td>ドールズフロントライン２：エクしリウム</td></tr>
+      <tr><td>13</td><td>プロ野球スピリッツA</td></tr>
+      <tr><td>14</td><td>Wizardry Variants Daphne</td></tr>
+      <tr><td>15</td><td>原神</td></tr>
+      <tr><td>16</td><td>放置少女 - 百花繚乱の萌姫たち</td></tr>
+      <tr><td>17</td><td>学園アイドルマスター</td></tr>
+      <tr><td>18</td><td>パズル＆ドラゴンズ</td></tr>
+      <tr><td>19</td><td>トォーンブラスト</td></tr>
+      <tr><td>20</td><td>Pokémon GO</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  function showTab(tabId) {
+    const tabs = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-buttons button');
+    
+    tabs.forEach(tab => tab.classList.remove('active'));
+    buttons.forEach(btn => btn.classList.remove('active'));
+    
+    document.getElementById(tabId).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
 
 
 ---
@@ -100,56 +216,14 @@ last_modified_at: 2025-03-25
 
 ---
 
-# 한국 시장
-## OS에 따른 매출 랭킹
+# 한국 마켓 
+## 한국 마켓의 OS 별 매출 랭킹
 
 ### Android
-| 순위 | 이름                                   |
-|------|----------------------------------------|
-| 1    | 리니지 M                               |
-| 2    | 라스트워: 서바이벌                    |
-| 3    | 화이트 아웃 서바이벌                  |
-| 4    | I9: 인페르노 나인 - 신규 클래스       |
-| 5    | 레전드 오브 이미르                    |
-| 6    | 소녀전선2: 망명                        |
-| 7    | 오딘: 발할라 라이징                   |
-| 8    | RF 온라인 넥스트                      |
-| 9    | 로열 매치 (Royal Match)               |
-| 10   | 리니지 W                               |
-| 11   | 리니지 2M                              |
-| 12   | Roblox                                 |
-| 13   | Last Z: Survival Shooter               |
-| 14   | Top Heroes                             |
-| 15   | 시사이드 이스케이프 : 머지&스토리     |
-| 16   | 붕괴 : 스타레일                        |
-| 17   | 아키에이지 워                          |
-| 18   | 운빨존많겜                              |
-| 19   | 로스트 소드                            |
-| 20   | 냥코 대전쟁                            |
+
 
 ### iOS
-| 순위 | 이름                                         |
-|------|----------------------------------------------|
-| 1    | RF 온라인 넥스트                            |
-| 2    | 화이트 아웃 서바이벌                        |
-| 3    | 라스트워: 서바이벌                          |
-| 4    | FIFA ONLINE 4 M by EA SPORTS™               |
-| 5    | 리니지M                                      |
-| 6    | 로열 매치 (Royal Match)                     |
-| 7    | 카피바라 Go!                                |
-| 8    | 시사이드 이스케이프 : 머지&스토리           |
-| 9    | 냥코 대전쟁                                  |
-| 10   | 컴투스프로야구V25                           |
-| 11   | PUBG MOBILE                                 |
-| 12   | 운빨존많겜                                    |
-| 13   | 가든스케이프                                 |
-| 14   | eFootball™                                   |
-| 15   | 레이싱 마스터                                |
-| 16   | 삼국지 전략판                                |
-| 17   | FC 모바일                                    |
-| 18   | 소녀전선2: 망명                              |
-| 19   | 탑 히어로즈                                   |
-| 20   | 쿠키런: 킹덤                                 |
+
 
 ---
 
