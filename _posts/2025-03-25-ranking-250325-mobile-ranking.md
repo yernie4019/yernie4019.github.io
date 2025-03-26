@@ -3,7 +3,7 @@ title: "[2025-03-25] 일간 모바일 마켓 분석"
 excerpt: "applion에서 집계한 매출 랭킹 분석"
 
 categories:
-  - ranking
+  - Ranking
 tags:
   - [iOSRanking]
 
