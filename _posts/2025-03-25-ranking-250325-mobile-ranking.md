@@ -155,8 +155,8 @@ last_modified_at: 2025-03-25
     <tr><td>11</td><td>리니지 2M</td></tr>
     <tr><td>12</td><td>Roblox</td></tr>
     <tr><td>13</td><td>Last Z: Survival Shooter</td></tr>
-    <tr><td>14</td><td>Top Heroes</td></tr>
-    <tr><td>15</td><td>시사이드 이스케이프 : 머지&amp;스토리</td></tr>
+    <tr><td>14</td><td>탑 히어로즈</td></tr>
+    <tr><td>15</td><td>씨사이드 이스케이프 : 합성 &amp;스토리 게임</td></tr>
     <tr><td>16</td><td>붕괴 : 스타레일</td></tr>
     <tr><td>17</td><td>아키에이지 워</td></tr>
     <tr><td>18</td><td>운빨존많겜</td></tr>
@@ -183,12 +183,12 @@ last_modified_at: 2025-03-25
     <tr><td>5</td><td>리니지M</td></tr>
     <tr><td>6</td><td>로열 매치 (Royal Match)</td></tr>
     <tr><td>7</td><td>카피바라 Go!</td></tr>
-    <tr><td>8</td><td>시사이드 이스케이프 : 머지&amp;스토리</td></tr>
+    <tr><td>8</td><td>씨사이드 이스케이프 : 합성 &amp;스토리 게임</td></tr>
     <tr><td>9</td><td>냥코 대전쟁</td></tr>
     <tr><td>10</td><td>컴투스프로야구V25</td></tr>
     <tr><td>11</td><td>PUBG MOBILE</td></tr>
     <tr><td>12</td><td>운빨존많겜</td></tr>
-    <tr><td>13</td><td>가든스케이프</td></tr>
+    <tr><td>13</td><td>꿈의 정원 (Gardenscape)</td></tr>
     <tr><td>14</td><td>eFootball™</td></tr>
     <tr><td>15</td><td>레이싱 마스터</td></tr>
     <tr><td>16</td><td>삼국지 전략판</td></tr>
@@ -224,7 +224,7 @@ last_modified_at: 2025-03-25
 | 7          | 카피바라 Go!                     |
 | 10         | 컴투스프로야구V25               |
 | 11         | PUBG MOBILE                     |
-| 13         | 가든스케이프                     |
+| 13         | 꿈의 정원 (Gardenscape)                     |
 | 14         | eFootball™                      |
 | 15         | 레이싱 마스터                    |
 | 16         | 삼국지 전략판                    |
