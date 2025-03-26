@@ -20,6 +20,12 @@ main:
 categories:
   - title: "ranking archive"
     url: /categories/ranking/
-  - title: "Categories2"
-    url: /categories/categories2/
+
+  - title: "Tool Dev"
+    children:
+      - title: "Blog Design"
+        url: /categories/blog-design/
+      - title: "Ranking Archiving"
+        url: /categories/ranking-tool/
+      
 
